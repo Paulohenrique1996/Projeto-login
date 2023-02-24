@@ -40,7 +40,13 @@ section#login{
 }
 
 section#login > div#imagem{
+    display: block;
     background: url(../imagens/img-coruja.jpg) no-repeat;
     background-size: cover;
+    background-position: right top;
     height: 200px;
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
