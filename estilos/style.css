@@ -29,7 +29,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 265px;
@@ -38,6 +37,7 @@ section#login{
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
 
+    transform: translate(-50%, -50%);
     transition: width .4s, height .4s;
     transition-timing-function: ease;
 }
@@ -78,9 +78,9 @@ div.campo > input{
     height:100%;
     width: calc(100% - 45px);
     border-radius: 8px;
-    transform: translateY(-14px);
     border: 0;
     padding: 18px;
+    transform: translateY(-14px);
     
 }
 
