@@ -61,8 +61,16 @@ div#formulario > p{
     font-size: 0.8em;
 }
 
-form > div#campo > label{
+form > div.campo > label{
     display: none;
+}
+
+div.campo span{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 form > div.campo{
